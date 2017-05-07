@@ -108,6 +108,14 @@ essence-ng2-pagination is a pagination component for Angular.
   - `numPages` - 总页数改变时触发, `$event:number` 等于总页数
   - `pageChanged` - 当前页改变时触发, `$event:{page, itemsPerPage}` 等于对象包括当前页（page）和每页项目数（itemsPerPage）
 
+## Develop
+
+	```shell
+	npm install // 安装依赖包
+	
+	npm start // 启动项目
+	```
+
 # License
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
