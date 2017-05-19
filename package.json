@@ -1,6 +1,6 @@
 {
 	"name": "essence-ng2-pagination",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "essence-ng2-pagination is a pagination component for Angular.",
 	"keywords": [
 		"angular2",
@@ -57,6 +57,6 @@
 		"gulp-inline-ng2-template": "^4.0.0",
 		"gulp-rename": "^1.2.2",
 		"gulp-sass": "^3.1.0",
-		"run-sequence": "^1.2.2",
+		"run-sequence": "^1.2.2"
 	}
 }
