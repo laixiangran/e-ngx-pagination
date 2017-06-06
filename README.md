@@ -10,10 +10,12 @@ essence-ng2-pagination is a pagination component for Angular.
 	npm install --save essence-ng2-pagination@latest
 	```
 	
-2. 在index.html引入bootstrap
+2. Set in the .angular-cli.json（@angular/cli）
 
-	```html
-	<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	```json
+    "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    ]
 	```
 
 3. Add the EssenceNg2PaginationModule

@@ -1,6 +1,6 @@
 {
 	"name": "essence-ng2-pagination",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "essence-ng2-pagination is a pagination component for Angular.",
 	"keywords": [
 		"angular2",
@@ -33,7 +33,10 @@
 	},
 	"module": "dist/index.js",
 	"typings": "dist/index.d.ts",
-	"dependencies": {},
+	"dependencies": {
+		"@types/bootstrap": "^3.3.33",
+		"bootstrap": "^3.3.7"
+	},
 	"devDependencies": {
 		"@angular/core": "^4.0.0",
 		"@angular/common": "^4.0.0",
