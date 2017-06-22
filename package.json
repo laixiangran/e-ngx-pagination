@@ -1,6 +1,6 @@
 {
 	"name": "essence-ng2-pagination",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "essence-ng2-pagination is a pagination component for Angular.",
 	"keywords": [
 		"angular2",
@@ -23,13 +23,13 @@
 		"url": "https://github.com/laixiangran/essence-ng2-pagination/issues"
 	},
 	"scripts": {
-		"prepublish": "gulp prepublish && ngc",
 		"start": "npm run jit",
 		"jit": "ng serve -o",
 		"aot": "ng serve -o --aot",
 		"build": "npm run build-test",
 		"build-test": "ng build --prod --env=test --aot",
-		"build-prod": "ng build --prod --env=prod --aot"
+		"build-prod": "ng build --prod --env=prod --aot",
+		"release": "gulp prepublish && ngc && npm publish"
 	},
 	"module": "dist/index.js",
 	"typings": "dist/index.d.ts",
