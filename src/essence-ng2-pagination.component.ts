@@ -113,9 +113,12 @@ export class EssenceNg2PaginationComponent implements ControlValueAccessor, OnIn
             return;
         }
 
-        this.pageChanged.emit({
-            page: this._page,
-            itemsPerPage: this.itemsPerPage
+        let id: number = setTimeout(() => {
+            clearTimeout(id);
+            this.pageChanged.emit({
+                page: this._page,
+                itemsPerPage: this.itemsPerPage
+            });
         });
     }
 
