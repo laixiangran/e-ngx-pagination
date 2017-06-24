@@ -23,13 +23,10 @@
 		"url": "https://github.com/laixiangran/essence-ng2-pagination/issues"
 	},
 	"scripts": {
-		"start": "npm run jit",
-		"jit": "ng serve -o",
-		"aot": "ng serve -o --aot",
-		"build": "npm run build-test",
+		"release": "gulp prepublish && ngc && npm publish",
+		"start": "ng serve -o",
 		"build-test": "ng build --prod --env=test --aot",
-		"build-prod": "ng build --prod --env=prod --aot",
-		"release": "gulp prepublish && ngc && npm publish"
+		"build-prod": "ng build --prod --env=prod --aot"
 	},
 	"module": "dist/index.js",
 	"typings": "dist/index.d.ts",
@@ -59,6 +56,8 @@
 		"gulp-inline-ng2-template": "^4.0.0",
 		"gulp-rename": "^1.2.2",
 		"gulp-sass": "^3.1.0",
-		"run-sequence": "^1.2.2"
+		"run-sequence": "^1.2.2",
+		"tslint": "^5.3.2",
+		"tslint-eslint-rules": "^4.1.1"
 	}
 }
