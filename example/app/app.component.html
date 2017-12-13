@@ -1,7 +1,7 @@
 <div class="app_main">
-	<h1>pagination Component for Angular2</h1>
+	<h1>pagination Component for Angular</h1>
 	<h2>复杂分页</h2>
-	<essence-ng2-pagination [totalItems]="totalItems"
+	<e-ngx-pagination [totalItems]="totalItems"
 							[(ngModel)]="currentPage"
 							[maxSize]="maxSize"
 							[itemsPerPage]="itemsPerPage"
@@ -13,14 +13,14 @@
 							firstText="首页"
 							lastText="尾页"
 							(pageChanged)="pageChanged($event)">
-	</essence-ng2-pagination>
+	</e-ngx-pagination>
 	<h2>简单分页</h2>
-	<essence-ng2-pager 	[totalItems]="totalItems"
+	<e-ngx-pager 	[totalItems]="totalItems"
 						  [(ngModel)]="currentPage"
 						  [itemsPerPage]="itemsPerPage"
 						  class="pagination-lg"
 						  previousText="上一页"
 						  nextText="下一页"
 						  (pageChanged)="pageChanged($event)">
-	</essence-ng2-pager>
+	</e-ngx-pager>
 </div>

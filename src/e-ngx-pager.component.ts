@@ -20,11 +20,11 @@ const pagerConfig: PagerConfig = {
 };
 
 @Component({
-	selector: 'essence-ng2-pager[ngModel]',
-	templateUrl: './essence-ng2-pager.component.html',
+	selector: 'e-ngx-pager[ngModel]',
+	templateUrl: './e-ngx-pager.component.html',
 	providers: [NgModel]
 })
-export class EssenceNg2PagerComponent implements ControlValueAccessor, OnInit, PagerConfig {
+export class ENgxPagerComponent implements ControlValueAccessor, OnInit, PagerConfig {
 	public config: any;
 
 	@Input()

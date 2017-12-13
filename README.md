@@ -1,13 +1,13 @@
-# essence-ng2-pagination
+# e-ngx-pagination
 
-essence-ng2-pagination is a pagination component for Angular.
+基于Angular的分页组件。
 
 ## Usage
 
 1. Install
 
 	```shell
-	npm install --save essence-ng2-pagination@latest
+	npm install --save e-ngx-pagination@latest
 	```
 	
 2. Set in the .angular-cli.json（@angular/cli）
@@ -18,13 +18,13 @@ essence-ng2-pagination is a pagination component for Angular.
     ]
 	```
 
-3. Add the EssenceNg2PaginationModule
+3. Add the ENgxPaginationModule
 
 	```typescript
-	import {EssenceNg2PaginationModule} from "essence-ng2-pagination";
+	import {ENgxPaginationModule} from "e-ngx-pagination";
 	@NgModule({
 	    imports: [
-	        EssenceNg2PaginationModule
+	        ENgxPaginationModule
 	    ]
 	})
 	```
@@ -33,7 +33,7 @@ essence-ng2-pagination is a pagination component for Angular.
 
 	```html
 	<h2>复杂分页</h2>
-    <essence-ng2-pagination [totalItems]="totalItems"
+    <e-ngx-pagination [totalItems]="totalItems"
                             [(ngModel)]="currentPage"
                             [maxSize]="maxSize"
                             [itemsPerPage]="itemsPerPage"
@@ -45,17 +45,17 @@ essence-ng2-pagination is a pagination component for Angular.
                             firstText="首页"
                             lastText="尾页"
                             (pageChanged)="pageChanged($event)">
-    </essence-ng2-pagination>
+    </e-ngx-pagination>
     
     <h2>简单分页</h2>
-    <essence-ng2-pager 	[totalItems]="totalItems"
+    <e-ngx-pager 	[totalItems]="totalItems"
                           [(ngModel)]="currentPage"
                           [itemsPerPage]="itemsPerPage"
                           class="pagination-lg"
                           previousText="上一页"
                           nextText="下一页"
                           (pageChanged)="pageChanged($event)">
-    </essence-ng2-pager>
+    </e-ngx-pager>
 	```
 
 5. Use in the component

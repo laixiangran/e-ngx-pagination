@@ -1,16 +1,16 @@
 {
-	"name": "essence-ng2-pagination",
-	"version": "1.0.4",
-	"description": "essence-ng2-pagination is a pagination component for Angular.",
+	"name": "e-ngx-pagination",
+	"version": "1.2.0",
+	"description": "基于Angular的分页组件",
 	"keywords": [
-		"angular2",
+		"angular",
 		"pagination",
 		"laixiangran"
 	],
-	"homepage": "https://github.com/laixiangran/essence-ng2-pagination#readme",
+	"homepage": "https://github.com/laixiangran/e-ngx-pagination#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/laixiangran/essence-ng2-pagination.git"
+		"url": "https://github.com/laixiangran/e-ngx-pagination.git"
 	},
 	"author": {
 		"name": "赖祥燃",
@@ -20,7 +20,7 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/laixiangran/essence-ng2-pagination/issues"
+		"url": "https://github.com/laixiangran/e-ngx-pagination/issues"
 	},
 	"scripts": {
 		"release": "gulp prepublish && ngc && npm publish",

@@ -3,6 +3,6 @@
  * homepage：http://www.laixiangran.cn
  */
 
-export {EssenceNg2PaginationModule} from './essence-ng2-pagination.module';
-export {EssenceNg2PaginationComponent} from './essence-ng2-pagination.component'
-export {EssenceNg2PagerComponent} from "./essence-ng2-pager.component";
+export { ENgxPaginationModule } from './e-ngx-pagination.module';
+export { ENgxPaginationComponent } from './e-ngx-pagination.component'
+export { ENgxPagerComponent } from "./e-ngx-pager.component";

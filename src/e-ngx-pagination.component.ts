@@ -30,11 +30,11 @@ const paginationConfig: PaginationConfig = {
 };
 
 @Component({
-    selector: 'essence-ng2-pagination[ngModel]',
-	templateUrl: './essence-ng2-pagination.component.html',
+    selector: 'e-ngx-pagination[ngModel]',
+	templateUrl: './e-ngx-pagination.component.html',
     providers: [NgModel]
 })
-export class EssenceNg2PaginationComponent implements ControlValueAccessor, OnInit, PaginationConfig{
+export class ENgxPaginationComponent implements ControlValueAccessor, OnInit, PaginationConfig{
     public config: any;
 
     @Input()
